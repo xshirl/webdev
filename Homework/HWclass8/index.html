@@ -16,20 +16,22 @@ var job = "full stack developer";
 var city = "NYC";
 
 document.write("You will be a " + job + " in " + city + ", and married to " + partner + " with " + children + " kids.");
-
+document.write ("<br>");
 var currentAge = 25;
 var maxAge = 100;
 var amount = 2;
 var total = (maxAge - currentAge) * 365 * amount;
 
 document.write("You will need " + total + " to last you until the ripe old age of " + maxAge + ".");
-
+document.write ("<br>");
 var celsius = 3;
 var fahrenheit = celsius * 9/5 + 32;
+var fahrenheit = fahrenheit.toFixed(2);
 document.write(celsius + " degrees Celsius is " + fahrenheit + " degrees Fahrenheit.");
-
+document.write ("<br>");
 var fahrenheit2 = 40;
 var celsius2 = (fahrenheit2 - 32) * 5 / 9; 
+var celsius2 = celsius2.toFixed(2);
 document.write(fahrenheit2 + " degrees Fahrenheit is " + celsius2 + " degrees Celsius." )
 </script>
 
