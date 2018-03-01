@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+<head> </head>
+
+<body>
+
+<script>
+var temp = 50;
+if (temp > 70) {
+	console.log("It is hot outside");
+
+} else if (temp > 50){
+	console.log("It is warm outside");
+
+} else {
+	console.log("BRR! It's freezing out there!");
+}
+
+var students = ["Dara", "Linda", "Janell", "Nesli", "Sameer"];
+console.log(students[0]);
+console.log(students[1]);
+console.log(students[2]);
+console.log(students[3]);
+console.log(students[4]);
+
+var numbers = [4, 65, 0, 29];
+numbers[0] = 17;
+console.log(numbers);
+console.log(numbers.length);
+
+var students = ["Mark", "Melissa", "Noopur", "Olga", "Vivek"];
+
+for (var i = 0; i < students.length; i++) {
+	console.log("Hello " + students[i]);
+}
+
+var x = 15;
+if ( x%3 === 0 && x%5 ===0) {
+	document.write("Fizzbuzz");
+}
+else if (x%3 === 0) {
+	document.write("Fizz");
+
+}
+else if (x%5 === 0) {
+	document.write("Buzz");
+}
+else {
+	document.write(x);
+}
+
+var iceCreamFlavors = ['chocolate', 'vanilla', 'strawberry', 'rocky road'];
+console.log(iceCreamFlavors.length);
+iceCreamFlavors[0] = 'mint chip';
+iceCreamFlavors.pop();
+iceCreamFlavors.push("moose tracks");
+console.log(iceCreamFlavors);
+
+var contacts = ["Matt Smith", "Sam Davis", "Ashley Jones"];
+var dad = contacts[1];
+contacts[0] = "Mark Williams";
+contacts.pop();
+contacts.push("Michelle Johnson");
+var numberOfContacts = contacts.length;
+
+var max = 20;
+for (var i = 0; i < max; i++) {
+	if (i % 3 === 0 && i % 5 === 0) {
+		console.log("FizzBuzz");
+	} else if (i % 3 === 0) {
+		console.log("Fizz");
+
+	} else if (i % 5 === 0) {
+		console.log("Buzz");
+
+	} else {
+		console.log(i);
+	}
+}
+
+function baseballVendor () {
+	console.log("Hot dogs! Get your hot dogs!");
+}
+
+baseballVendor();
+
+function recitePoem() {
+	console.log("Roses are red, violets are blue.");
+}
+
+recitePoem();
+
+function makeCone(flavor, numberScoops) {
+	console.log("Coming right up! One " + flavor + " ice cream cone with " + numberScoops + " scoops.");
+}
+makeCone("chocolate", 3);
+</script>
+</body>
+</html>
